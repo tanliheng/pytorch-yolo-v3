@@ -1,9 +1,9 @@
-from __future__ import division
+from __future__ import division //导入python未来支持的语言特征division(精确除法)
 
 import torch 
-import torch.nn as nn
+import torch.nn as nn //构建模型
 import torch.nn.functional as F 
-from torch.autograd import Variable
+from torch.autograd import Variable //训练模型，自动求导
 import numpy as np
 import cv2 
 import matplotlib.pyplot as plt
